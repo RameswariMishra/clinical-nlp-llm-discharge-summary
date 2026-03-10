@@ -1,25 +1,33 @@
-{'file': 'PA03.pdf',
- 'patient_age': '61 Y',
- 'gender': 'Female',
- 'diagnosis': 'ACCELERATED HYPERTENSION',
- 'symptoms': ['Nausea',
-  'Anxiety',
-  'Pain in epigastric region',
-  'High blood pressure',
-  'Headache'],
- 'medications': ['Nitroglycerin infusion',
-  'Antihypertensive drugs',
-  'IV fluids',
-  'Multivitamins',
-  'PPI',
-  'Antiemetics',
-  'Etoshine 90 mg',
-  'Shelcal Joints',
-  'Bio D3 Fem',
-  'Ciplox D ear drops',
-  'Cefuroxime',
-  'Abroxol 500 mg',
-  'Calpol (paracetamol)',
-  'Supradyn'],
- 'procedures': ['MRI brain',
-  'Nitroglycerin infusion (as antihypertensive measure)']}
+{
+  "file": "PA03.pdf",
+  "patient_age": "61 Y",
+  "gender": "Female",
+  "diagnosis": "ACCELERATED HYPERTENSION",
+  "symptoms": [
+    "Nausea",
+    "Anxiety",
+    "Pain in epigastric region",
+    "High blood pressure",
+    "Headache"
+  ],
+  "medications": [
+    "Nitroglycerin infusion",
+    "Antihypertensive drugs",
+    "IV fluids",
+    "Multivitamins",
+    "PPI",
+    "Antiemetics",
+    "Etoshine 90 mg",
+    "Shelcal Joints",
+    "Bio D3 Fem",
+    "Ciplox D ear drops",
+    "Cefuroxime",
+    "Abroxol 500 mg",
+    "Calpol (paracetamol)",
+    "Supradyn"
+  ],
+  "procedures": [
+    "MRI brain",
+    "Nitroglycerin infusion (as antihypertensive measure)"
+  ]
+}
