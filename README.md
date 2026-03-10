@@ -60,6 +60,7 @@ To reproduce this project:
 
 The pipeline converts unstructured clinical documents into structured datasets through the following stages:
 
+```
 PDF Discharge Summary
         ↓
 Text Extraction
@@ -71,7 +72,7 @@ LLM-Based Structured Extraction
 Structured Dataset
         ↓
 Power BI Dashboard
-
+```
 
 ---
 
