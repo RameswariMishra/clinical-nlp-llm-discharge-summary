@@ -171,18 +171,13 @@ The automated pipeline performs:
 This ensures that the project remains reproducible and functional across environments.
 
 ## Project Structure
-
+'''
 clinical-nlp-llm-discharge-summary/
 
 notebooks/
 └── clinical_nlp_llm_pipeline.ipynb
 
-src/
-├── pdf_extraction.py
-├── rule_based_extraction.py
-├── llm_extraction.py
-
-outputs/
+results/
 ├── structured_discharge_dataset.csv
 └── sample_llm_output.json
 
@@ -196,6 +191,7 @@ dashboard/
 requirements.txt
 README.md
 .gitignore
+'''
 
 ## How to Run
 ### 1. Clone the repository
