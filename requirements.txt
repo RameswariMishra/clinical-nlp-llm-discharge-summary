@@ -1,0 +1,8 @@
+pdfplumber
+pandas
+spacy
+scikit-learn
+jupyter
+matplotlib
+openai
+python-dotenv

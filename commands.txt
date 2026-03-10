@@ -1,0 +1,6 @@
+To run the requirements doc :
+pip install -r requirements.txt
+pip install -U spacy pydantic typing-extensions
+python -m spacy download en_core_web_sm
+Create an Open AI API key, by creating an account
+Create a .env file using Bash or Pycham in the notebooks folder and copy into that as OPEN_AI_API_KEY = sk-***
