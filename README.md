@@ -171,7 +171,7 @@ The automated pipeline performs:
 This ensures that the project remains reproducible and functional across environments.
 
 ## Project Structure
-'''
+```
 clinical-nlp-llm-discharge-summary/
 
 notebooks/
@@ -191,7 +191,8 @@ dashboard/
 requirements.txt
 README.md
 .gitignore
-'''
+
+ ```
 
 ## How to Run
 ### 1. Clone the repository
