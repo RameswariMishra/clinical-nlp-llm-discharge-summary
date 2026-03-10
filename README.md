@@ -232,3 +232,5 @@ Such pipelines can support healthcare analytics, clinical research, and intellig
 
 The combination of document processing, NLP extraction, LLM-based structuring, and dashboard visualization provides a scalable approach to transforming clinical text into actionable data.
 
+## Author
+Created by Rameswari Mishra
