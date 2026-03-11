@@ -176,7 +176,7 @@ The dashboard enables quick exploration of structured clinical information extra
 
 ### Dashboard Preview
 
-![Dashboard Overview](dashboard/dashboard_overview.png)
+![Dashboard Overview](dashboard/dashboard_preview.png)
 
 ![Gender Filter Example](dashboard/gender_filter_view.png)
 
