@@ -178,8 +178,11 @@ The dashboard enables quick exploration of structured clinical information extra
 
 ![Dashboard Overview](dashboard/dashboard_preview.png)
 
+### Gender Filter Example
+
 ![Gender Filter Example](dashboard/gender_filter_view.png)
 
+### Diagnosis Filter Example
 ![Diagnosis Filter Example](dashboard/diagnosis_filter_view.png)
 
 ## CI/CD Pipeline
