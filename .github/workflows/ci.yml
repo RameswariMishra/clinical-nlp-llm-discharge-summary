@@ -1,0 +1,40 @@
+name: Clinical NLP CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate core imports
+        run: |
+          python -c "import pandas; print('pandas OK')"
+          python -c "import pdfplumber; print('pdfplumber OK')"
+          python -c "import spacy; print('spacy OK')"
+          python -c "import sklearn; print('sklearn OK')"
+
+      - name: Check required files exist
+        run: |
+          test -f README.md
+          test -f requirements.txt
+          test -f .gitignore
+          test -d outputs || echo "outputs/ folder not found (OK if you didn't commit it)"
+          test -d dashboard || echo "dashboard/ folder not found (OK if you didn't commit it)"
